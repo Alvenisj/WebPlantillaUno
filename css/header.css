@@ -1,0 +1,108 @@
+.header {
+
+    height: 60px;
+}
+
+.header .contenedor {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/*ESTILOS DEL LOGO*/
+.logo {
+    margin: 5px;
+    color: #fff;
+
+}
+
+/*ESTILOS DEL BOTÓN MENÚ*/
+.icon-menu {
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background: rgb(60, 178, 247);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: auto;
+    cursor: pointer;
+   
+}
+
+.icon-menu-es {
+    
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background: rgb(60, 178, 247);
+    color: #fff;
+    text-align: center;
+    margin-left: 52%;
+    line-height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+
+}
+
+/*ESTILOS DEL MENÚ*/
+.nav {
+    position: absolute;
+    top: 60px;
+    left: -100%;
+    width: 100%;
+    transition: all 0.4s;
+    
+}
+
+/*ESTILOS DEL UL, DONDE ESTÁN LOS LI DE CADA LINK*/
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+}
+
+/*ESTILOS DE LAS ETIQUETAS "LI"*/
+.menu__item {
+
+   margin: 2px 7px;
+  
+}
+
+/*ESTILOS DE LA ETIQUETAS "a" de los li*/
+.menu__link {
+
+    display: block;
+    padding: 15px;
+    background: rgba(60, 179, 247, 0.589);
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    border-radius: 5px;
+
+ 
+   
+}
+
+.menu__link:hover {
+
+    background: rgba(255, 255, 255, 0.432);
+    color: rgb(253, 253, 253);
+ }
+
+ /*ESTILOS DE LA CLASE MOSTRAR QUE SE TRAE DESDE EL JS EL MENÚ*/
+.mostrar {
+    left: 0;
+}
+
+
+/*
+ESTILOS PARA ESCONDER EL MENÚ DESDE EL JS
+.esconder {
+    left: -100%;
+}
+*/

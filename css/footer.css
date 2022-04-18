@@ -1,0 +1,49 @@
+.footer {
+
+    background: rgba(51, 51, 51, 0.747);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.footer .social [class^="icon-"] {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 8px;
+    cursor: pointer;
+    background: rgba(241, 212, 212, 0.281);
+    margin: 0 5px;
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+    line-height: 35px;
+    
+}
+
+.footer .social [class^="icon-"]:hover {
+
+    background:rgba(60, 179, 247, 0.589);
+
+}
+
+.footer-copy  {
+
+    text-decoration: none;
+    color: #fff;
+    background: rgba(241, 212, 212, 0.281);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.footer-copy:hover  {
+
+    background: rgba(60, 179, 247, 0.589);
+}
+ 
+.copy {
+
+    font-size: 15px;
+}

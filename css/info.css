@@ -1,0 +1,55 @@
+
+.info__columna {
+
+    background: rgb(60, 178, 247);
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.info__img {
+
+    border-radius: 8px;
+}
+
+/*ESTILOS DE INFO DE LOS PRODUCTOS*/
+
+
+
+.section__titulo {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(60, 178, 247);
+    margin-bottom: 5px;
+   
+}
+
+.section__subtitle {
+    opacity: 1;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(60, 178, 247);
+}
+
+.produ__column { 
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.produ__description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    width: 60%;
+    height: 100%;
+    padding: 5px;
+    
+}
+
+.produ__titulo {
+    font-size: 25px;
+    margin: 5px 0;
+}
