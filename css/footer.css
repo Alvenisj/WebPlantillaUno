@@ -4,6 +4,7 @@
     color: #fff;
     padding: 10px;
     text-align: center;
+   
 }
 
 
@@ -11,15 +12,15 @@
     display: inline-block;
     color: #fff;
     text-decoration: none;
-    font-size: 30px;
-    padding: 8px;
+    font-size: 20px;
+    padding: 5px;
     cursor: pointer;
     background: rgba(241, 212, 212, 0.281);
     margin: 0 5px;
     border-radius: 8px;
-    width: 50px;
-    height: 50px;
-    line-height: 35px;
+    width: 30px;
+    height: 30px;
+    line-height: 22px;
     
 }
 
@@ -34,8 +35,8 @@
     text-decoration: none;
     color: #fff;
     background: rgba(241, 212, 212, 0.281);
-    padding: 3px;
-    border-radius: 5px;
+   
+    
 }
 
 .footer-copy:hover  {
@@ -45,5 +46,51 @@
  
 .copy {
 
-    font-size: 15px;
+    font-size: 12px;
+}
+
+/*-----------ESTILOS RESPONSIVE WEB DESIGN*/
+
+/*----------------------------------------------------*/
+@media(min-width:768px) {
+
+
+    .footer .social [class^="icon-"] {
+    
+        font-size: 34px;
+        padding: 5px;
+        width: 55px;
+        height: 44px;
+    }
+    
+    .copy {
+
+        font-size: 21px;
+    }
+
+    .footer {    
+        padding: 25px;  
+    
+}
+
+}
+/*-------------------------------------------------*/
+@media(min-width:1024px) {
+
+    .footer .social [class^="icon-"] {
+    
+        font-size: 30px;
+        width: 50px;
+        height: 46px;
+    }
+
+    .copy {
+
+        font-size: 12px;
+        
+        
+    }
+
+
+
 }

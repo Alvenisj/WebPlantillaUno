@@ -5,16 +5,22 @@
     color: #fff;
     padding: 15px;
     margin-bottom: 30px;
+    border-radius: 18px;
 }
 
 .info__img {
 
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
+.info__txt {
+
+   text-align: justify;
+   
+}
+
+
 /*ESTILOS DE INFO DE LOS PRODUCTOS*/
-
-
 
 .section__titulo {
     text-align: center;
@@ -34,7 +40,7 @@
 
 .produ__column { 
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .produ__description {
@@ -42,14 +48,210 @@
     top: 0;
     left: 0;
     color: #fff;
-    background: rgba(0, 0, 0, 0.5);
-    width: 60%;
+    background: rgba(0, 0, 0, 0.623);
+    width: 58%;
     height: 100%;
-    padding: 5px;
+    
+   
     
 }
 
 .produ__titulo {
-    font-size: 25px;
+    font-size: 15px;
+    padding: 0 10px;
     margin: 5px 0;
 }
+
+.produ__txt {
+
+    padding: 0 10px;
+    text-align: justify;
+    font-size: 11px;
+    
+ }
+
+
+/*-----------ESTILOS RESPONSIVE WEB DESIGN*/
+
+@media(min-width:480px) {
+
+ .info__titulo {
+
+        font-size: 20px;
+     }
+
+
+.info__txt {
+
+    font-size: 15px;
+   
+}
+.produ__titulo {
+
+        font-size: 33px;
+        padding: 0 10px;
+        margin-top: 22px;
+    }
+    
+.produ__txt {
+    
+        padding: 3px 15px;
+        text-align: justify;
+        font-size: 20px;
+        
+     }
+}
+
+
+/*----------------------------------------------------*/
+@media(min-width:768px) {
+
+    .info {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+     
+    }
+
+    .info__columna {
+
+        width: 48%;
+       
+        
+    }
+
+
+    
+ .info__titulo {
+
+    font-size: 25px;
+ }
+
+
+.info__txt {
+
+font-size: 15px;
+
+}
+
+/*--------PRODUCTOS--------------*/
+
+.productos {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+
+.produ__column {
+    width: 48%;
+    height: 35vh;
+    margin-top: 15px;
+}
+  
+
+.section__titulo {
+        
+   
+    font-size: 30px;
+   
+}
+
+.section__subtitle {
+    
+    font-size: 25px;
+    
+}
+
+.produ__description{
+
+    width: 65%;
+    height: 37vh;
+}
+
+.produ__titulo {
+
+    font-size: 20px;
+   
+   
+}
+
+.produ__txt {
+
+   
+    font-size: 15px;
+    
+ }
+   
+    
+}
+
+/*------------------------------------------*/
+@media(min-width:1024px) {
+
+ 
+    .info__columna {
+
+        width: 15%;
+     
+        
+    }
+
+    .produ__column {
+        width: 30%;
+        height: 39vh;
+    }
+
+    .produ__description{
+
+        width: 75%;
+        height: 42vh;
+    }
+
+    .produ__titulo {
+
+        font-size: 35px;
+       
+       
+    }
+    
+    .produ__txt {
+    
+       
+        font-size: 15px;
+        
+     }
+
+     .section__titulo {
+        
+   
+        font-size: 55px;
+       
+    }
+    
+    .section__subtitle {
+        
+        font-size: 35px;
+        
+    }
+
+
+}
+
+@media(min-width:1680px) { 
+
+    .info__columna {
+
+        width: 16%;
+     
+        
+    }
+    .produ__column {
+        width: 16%;
+        height: 45vh;
+    }
+
+}
+
