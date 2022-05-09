@@ -24,7 +24,15 @@ body {
 
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+	padding: 0;
+    line-height: 1.5em;
+    padding-top: 0.1px
     
+}
+
+html {
+
+    scroll-behavior: smooth;
 }
 /* TÍTULOS*/
 h1, h2, h3, h4, h5, h6 {

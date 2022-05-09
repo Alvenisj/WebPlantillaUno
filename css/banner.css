@@ -12,8 +12,8 @@
 
 .banner__titulo {
 
-    font-size: 25px;
-    margin-top: 60px;
+    font-size: 20px;
+    margin-top: 155px;
 }
 
 .banner__txt {
@@ -43,7 +43,8 @@
     .banner__titulo {
 
         font-size: 25px;
-        margin-top: 105px;
+        margin-top: 125px;
+
         
     }
 
@@ -77,19 +78,21 @@
     @media(min-width:1024px) {
 
 
-
+    
         .banner__titulo {
 
-            font-size: 50px;
-            margin-top: -109px;
-            
-            
+            font-size: 55px;
+            margin-top: -55px;
+            color: rgb(14, 6, 6); 
+
+           
         }
     
         .banner__txt {
     
            
-            font-size: 24px;
+            font-size: 34px;
+            color: rgb(14, 6, 6); 
         }
 
 

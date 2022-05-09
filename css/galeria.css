@@ -1,0 +1,72 @@
+.cont {
+
+    
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+
+}
+
+.cont__galeria {
+
+    
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 80%;
+    margin-top: 15px;
+   
+
+}
+
+
+
+.cont__galeria:hover {
+
+    border: 1px solid lightcoral;
+    transform: rotate(-3deg);
+
+}
+
+/*ESTILOS PARA MOVIL O TELÉFONOS*/
+@media(min-width:480px) {
+
+
+
+    .cont__galeria {
+
+        width: 89%;
+       
+        
+    }
+}
+
+
+@media(min-width:768px) {
+
+
+
+    .cont__galeria {
+
+        width: 44%;
+       
+        
+    }
+
+}
+
+@media(min-width:1024px) {
+
+
+
+    .cont__galeria {
+
+        width: 24%;
+       
+        
+    }
+
+}
